@@ -1,0 +1,192 @@
+.ava{
+   
+    margin: 0;
+    padding: 0;
+}
+.a2{
+    display: flex;
+    justify-content: center;
+    background:  radial-gradient(#002559, #bfcfdc);
+}
+.aga{
+    background: radial-gradient(circle, #002559, #bfcfdc);
+    min-height: calc(100vh - 84px);
+    padding-top: 30px;
+}
+/* ProductList.module.css */
+
+.inputSearch {
+    width: 100%; /* Задает фиксированную ширину */
+    max-width: 300px; /* Максимальная ширина, если необходимо */
+    margin: auto;
+  }
+  .cat{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Убираем стандартный стиль */
+    width: 20px;
+    height: 20px;
+    background-color: #1b3d6c;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  input[type="range"]::-webkit-slider-thumb:active {
+    border: none;
+  }
+  /* select option p{
+    color: #7611db;
+    font-size: px;
+  } */
+  
+  .search_bar  {
+    border-radius: 25px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    
+  }
+
+  /* Стили для панели фильтров */
+  .filters {
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  }
+  .filters h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #002559;
+  }
+  .filter_group h3 {
+    font-size: 18px;
+    color: #002559;
+    margin-bottom: 10px;
+  }
+  .filter_group label {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+
+  /* Стили для карточек товаров */
+  .product-card {
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.2s ease;
+  }
+  .product-card:hover {
+    transform: translateY(-5px);
+  }
+  .product-card .placeholder {
+    width: 100%;
+    height: 150px;
+    background-color: #d3d3d3; /* Серый квадрат */
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+  .product-card h3 {
+    font-size: 18px;
+    color: #002559;
+    margin: 10px 0;
+  }
+  .product-card .price {
+    font-size: 20px;
+    font-weight: bold;
+    color: #009688;
+    margin-top: 10px;
+  }
+
+  /* Дополнительные стили для адаптивности */
+  @media (max-width: 992px) {
+    .product-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  @media (max-width: 768px) {
+    .product-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .filters {
+      margin-bottom: 20px;
+    }
+  }
+  @media (max-width: 576px) {
+    .product-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+  .pagination {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left:260px;
+  }
+  
+  .pageButton {
+    background-color: white;
+    border: 1px solid #ccc;
+    color: rgb(43,76,118);
+    font-weight: 500;
+  }
+  
+  .pageButton:hover {
+    background-color: rgb(43,76,118);
+  }
+  
+  .pageButton:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+  
+  .activePageButton {
+    background-color:rgb(43,76,118);
+    color: white;
+    border-color: #002559;
+  }
+  .card {
+    flex: initial !important; /* или flex: unset; */
+  }
+  .inputField{
+    padding: 1px 0 0 3px !important;
+  }
+  /* Для WebKit-браузеров (Chrome, Safari) */
+.form-range::-webkit-slider-runnable-track {
+    height: 8px; /* Высота линии */
+    background: linear-gradient(to right, #4CAF50, #ddd); /* Цвет активной и неактивной части */
+    border-radius: 5px; /* Закругленные края */
+}
+
+.form-range::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Убираем стандартный стиль */
+    width: 16px; /* Ширина ползунка */
+    height: 16px; /* Высота ползунка */
+    background-color: #4CAF50; /* Цвет ползунка */
+    border-radius: 50%; /* Закругленный ползунок */
+    cursor: pointer;
+    margin-top: -4px; /* Центрирование ползунка по высоте */
+}
+
+/* Для Firefox */
+.form-range::-moz-range-track {
+    height: 8px;
+    background: linear-gradient(to right, #4CAF50, #ddd);
+    border-radius: 5px;
+}
+
+.form-range::-moz-range-thumb {
+    width: 16px;
+    height: 16px;
+    background-color: #4CAF50;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.resetButton{
+  font-size: 15px;
+  background:#002559;
+  color:white;
+}

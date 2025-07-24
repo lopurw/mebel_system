@@ -1,0 +1,73 @@
+.footer {
+    background: white;
+    color: #002559;
+    padding: 40px 0;
+    font-weight: 600;
+    bottom: 0;
+  }
+  
+  .footerTitle {
+    color: #002559;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .footerDescription {
+    font-size: 0.9rem;
+    line-height: 1.5;
+  }
+  
+  .footerLinks,
+  .footerContact {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footerLink {
+    color: #002559;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+    font-weight: 600;
+  }
+  
+  .footerLink:hover {
+    color: #0052c5;
+  }
+  
+  .footerContact li {
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    color: #002559;
+  }
+  
+  .footerSocial {
+    margin-top: 1rem;
+  }
+  
+  .socialLink {
+    color: #002559;
+    font-size: 1.5rem;
+    margin-right: 15px;
+    transition: color 0.3s ease;
+  }
+  
+  .socialLink:hover {
+    color: #0049af;
+  }
+  
+  .footer .col-md-4 {
+    padding: 20px;
+  }
+  
+  .footer .col-md-4:not(:first-child) {
+    border-left: 1px solid #ffffff; /* Вертикальные линии для всех колонок, кроме первой */
+  }
+  
+  .footerCopy {
+    font-size: 0.8rem;
+    color: #bfcfdc;
+    margin-top: 20px;
+    text-align: center;
+  }
+  

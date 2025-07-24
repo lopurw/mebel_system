@@ -1,0 +1,63 @@
+.product-card {
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+}
+
+.product-card:hover {
+  transform: scale(1.05);
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.card-text {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.btn {
+  width: 100%;
+  font-size: 1.1rem;
+}
+
+img {
+  max-height: 200px;
+  object-fit: cover;
+  width: 100%;
+}
+.productDetail{
+  background: radial-gradient(circle, #002559, #bfcfdc);
+  word-break: break-word;
+}
+h2,p, span, .productPrice{
+  color: white;
+}
+.addToCartButton{
+  background-color:white;
+  color:#002559;
+  width: 50%;
+  margin:0;
+}
+
+.productImage{
+  width: 500px;
+}
+
+.productDetail{
+  min-height: calc(100vh - 86px);
+  height: calc(100vh - 86px);
+}
+
+.quantityControl{
+  margin-top: 50px !important;
+}
+.productInfo {
+  color: white; /* Сделать текст в блоке productInfo белым */
+}
+
+.productInfo strong {
+  color: white; /* Сделать надписи белыми, если нужно */
+}

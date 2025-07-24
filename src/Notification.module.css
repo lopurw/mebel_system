@@ -1,0 +1,28 @@
+/* Notification.module.css */
+.notification {
+    position: fixed;
+    top: -50px; /* Начальная позиция - над экраном */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    color: #007bff; /* Голубой текст */
+    border: 2px solid #007bff; /* Голубая рамка */
+    padding: 15px 30px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 123, 255, 0.3); /* Голубой бокс-шэдоу */
+    font-size: 1.2rem;
+    z-index: 1000;
+    opacity: 0; /* Изначально прозрачное */
+    transition: top 2s ease, opacity 1s ease; /* Плавный переход */
+  
+    /* При отображении уведомления */
+    top: 20px; /* Положение, при котором оно видно на экране */
+    opacity: 1; /* Постепенно становится непрозрачным */
+  }
+  
+  .notificationExit {
+    opacity: 0;
+    top: -50px; /* Смещение вверх при выходе */
+    transition: top 0.5s ease, opacity 0.5s ease; /* Плавный переход на выходе */
+  }
+  

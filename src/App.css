@@ -1,0 +1,13 @@
+body{
+
+  margin: 0;
+  padding: 0;
+  font-family: "Comfortaa", sans-serif !important;
+  overflow-x: hidden;
+}
+img{
+  max-height: none !important;
+}
+a:hover{
+  text-decoration: none;
+}

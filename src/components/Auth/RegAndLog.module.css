@@ -1,0 +1,61 @@
+.aga {
+  background: radial-gradient(circle, #002559, #bfcfdc);
+  color: #ffffff;
+  height: calc(100% - 62px);
+  margin: 0; /* Remove default margin */
+}
+
+.container {
+  height: 100%; /* Full height to center the card */
+}
+
+.card {
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.05
+  ); /* Slightly transparent background */
+  backdrop-filter: blur(40px); /* Blurring effect for the background */
+  border-radius: 15px; /* Rounded corners */
+  border: 1px solid rgba(255, 255, 255, 0.3); /* Light border for the card */
+}
+
+.form-control {
+  background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent input */
+  border: 1px solid rgba(255, 255, 255, 0.5); /* Light border for inputs */
+}
+
+.form-label {
+  color: rgba(255, 255, 255, 0.8); /* Slightly less opaque label */
+}
+
+.btn {
+  opacity: 0.9; /* Slight transparency for buttons */
+}
+
+a {
+  text-decoration: none; /* Remove underline from links */
+}
+
+a:hover {
+  text-decoration: underline; /* Underline links on hover */
+}
+.login_page{
+  height: calc(100vh - 86px);
+}
+.login_card{
+  box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.5) !important;
+  width: 25vw;
+
+}
+.login_card:first-child{
+  margin-top: 100px;
+
+}
+.link{
+  transition: all .2s ease-out;
+}
+.link:hover{
+  color: #0a58ca !important;
+}

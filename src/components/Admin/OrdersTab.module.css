@@ -1,0 +1,100 @@
+/* Base Table Styles */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Styles */
+.tableHeader {
+  padding: 16px;
+  background-color: #3a7bd5; /* Soft blue gradient */
+  color: #fff;
+  font-weight: 600;
+  text-align: left;
+  border-bottom: 3px solid #2f6bb2;
+  font-size: 16px;
+}
+
+/* Cell Styles */
+.tableCell {
+  padding: 16px;
+  color: #333;
+  border-bottom: 1px solid #eaeaea;
+  font-size: 15px;
+  transition: background-color 0.3s ease;
+}
+
+/* Row Styling */
+.evenRow {
+  background-color: #f9fbfc;
+}
+
+.rowHover:hover {
+  background-color: #f0f7ff; /* Light blue on hover */
+  transition: background-color 0.3s ease;
+}
+
+/* Order Item Styling */
+.item {
+  margin: 4px 0;
+  color: #555;
+  font-size: 0.9em;
+}
+
+/* Heading Style */
+.heading {
+  color: #333;
+  font-size: 26px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  text-align: center;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .table {
+    font-size: 14px;
+  }
+
+  .tableHeader,
+  .tableCell {
+    padding: 12px;
+  }
+
+  .heading {
+    font-size: 22px;
+  }
+}
+.filterButtons {
+  display: flex;
+  gap: 10px; /* Отступы между кнопками */
+  margin-bottom: 20px; /* Отступ снизу */
+}
+
+.filterButton {
+  padding: 8px 16px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.filterButton:hover {
+  background-color: #e0e0e0;
+}
+
+.filterButton.active {
+  background-color: #007bff; /* Синий цвет для активной кнопки */
+  color: white;
+}
+
+.filterButton:focus {
+  outline: none; /* Убираем обводку при фокусе */
+}

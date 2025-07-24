@@ -1,0 +1,97 @@
+.mainBackground {
+    background: radial-gradient(circle, #002559, #bfcfdc);
+    color: #fff;
+  }
+  
+  .heroSection {
+    height: 100vh;
+  
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .heroTitle {
+    color: #fff;
+  }
+  
+  .heroSubtitle {
+    color: #e2eaf2;
+  }
+  
+  .ctaButton {
+    background-color: #fff;
+    border-color: #2d3d54;
+    color: #2d3d54;
+  }
+  .ctaButton:hover {
+    background-color: #c7c7c7;
+    border-color: #2d3d54;
+    color: #2d3d54;
+  }
+  .ctaButton:active {
+    background-color: #2d3d54;
+    border-color: white;
+    color: #2d3d54;
+  }
+  
+  .descriptionSection {
+    text-align: center;
+  }
+  
+  .sectionTitle {
+    color: #6a98b2;
+  }
+  
+  .sectionText {
+    color: #ffffff;
+  }
+  
+  .cardSection {
+    /* Секция с карточками */
+  }
+  
+  .card {
+    background-color: #587395 !important;
+    border-radius: 15px;
+    transition: transform 0.3s;
+    padding: 30px;
+    box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.5) !important;
+
+  }
+  
+  .cardTitle {
+    color: #b7ceef;
+    font-size: 1.5rem;
+  }
+  
+  .cardText {
+    /* color: #e2eaf2; */
+    color: #ffffff;
+
+  }
+  
+  .latestProductsSection {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .catalogButton {
+    /* Стили для кнопки каталога */
+  }
+  button, .btn, .catalogButton, .catalogButton:hover{
+    background-color:white;
+    color: #002559;
+    text-decoration: none;
+    border:none;
+  }
+  .card_latest{
+    display: flex;
+    justify-content: space-around;
+   
+  }
+  .aga1{
+    background: radial-gradient(circle, #002559, #bfcfdc);
+    min-height: calc(100vh - 86px);
+  }
+  

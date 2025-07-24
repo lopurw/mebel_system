@@ -1,0 +1,112 @@
+/* Добавляем обрамление и стиль карточек */
+.product_card {
+    border: 1px solid #ddd; /* Обрамление */
+    border-radius: 10px; /* Скругленные углы */
+    overflow: hidden; /* Чтобы изображение не выходило за пределы */
+    transition: transform 0.3s, box-shadow 0.3s;
+    background-color: #fff; /* Белый фон */
+  }
+  
+  .product_card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Тень при наведении */
+  }
+  
+  /* Стили для изображения */
+  .card_img_top {
+   
+    object-fit: cover; /* Масштабируем изображение, чтобы оно не искажалось */
+    border-bottom: 1px solid #ddd; /* Линия под изображением */
+  }
+  
+  /* Стили для текста карточки */
+  .card_body {
+  
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    
+  }
+  .card_catalog{
+    border:2px solid #ddd ;
+    border-radius:20px;
+    padding:10px;
+  }
+  .card_catalog img{
+    border-radius:15px;
+  }
+  .card_title {
+    font-weight: bold;
+    font-size: 1.5rem; /* Увеличиваем шрифт заголовка */
+    color: #ffffff !important; /* Тёмный цвет текста */
+    margin-bottom: 0.3rem;
+  }
+  
+  .card_text {
+    font-size: 1.2rem;
+   
+    color: #ffffff; /* Цвет для цены */
+   
+  }
+  
+  /* Адаптивное поведение */
+  @media (max-width: 576px) {
+    .product_card {
+      margin-bottom: 20px; /* Дополнительное расстояние на маленьких экранах */
+    }
+  }
+
+  /* Добавляем обрамление и стиль карточек */
+  .product_card {
+    border: 1px solid #ddd; /* Border for the card */
+    border-radius: 10px; /* Rounded corners */
+    overflow: hidden; /* Prevent image overflow */
+    transition: transform 0.3s, box-shadow 0.3s; /* Hover effects */
+    background-color: #fff; /* White background */
+    height: 400px; /* Fixed height */
+   
+    margin: 10px; /* Margin around cards */
+  }
+
+.product_card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Тень при наведении */
+}
+
+/* Стили для изображения */
+.card_img_top {
+  object-fit: cover; /* Масштабируем изображение, чтобы оно не искажалось */
+  border-bottom: 1px solid #ddd; /* Линия под изображением */
+}
+
+/* Стили для текста карточки */
+.card_body {
+  display: flex;
+  justify-content: center; /* Центрируем текст в карточке */
+  flex-direction: column; /* Упрощаем вертикальное выравнивание */
+  align-items: center; /* Центрируем элементы по оси Y */
+  height: 100px; /* Увеличиваем высоту для текста */
+}
+
+.card_title {
+  font-weight: bold;
+  font-size: 1.5rem; /* Увеличиваем шрифт заголовка */
+  color: #000000 !important; /* Тёмный цвет текста */
+  margin-bottom: 0.3rem;
+}
+
+.card_text {
+  font-size: 1.2rem;
+  color: #333 !important; /* Цвет для цены */
+}
+
+/* Адаптивное поведение */
+@media (max-width: 576px) {
+  .product_card {
+    margin-bottom: 20px; /* Дополнительное расстояние на маленьких экранах */
+  }
+}
+.card {
+  flex: initial !important; /* или flex: unset; */
+}
+

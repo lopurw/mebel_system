@@ -1,0 +1,132 @@
+
+  
+  .nav-link {
+    cursor: pointer;
+  }
+  
+  .userCard, .productCard {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    border: 1px solid #007bff;
+    margin-bottom: 15px;
+    background-color: #f8f9fa;
+  }
+  
+  .addCard {
+    border: 1px solid #007bff;
+    border-radius: 8px;
+    background-color: #e9ecef;
+  }
+  
+  .addCard .card-body, .productCard .card-body {
+    background-color: white;
+  }
+  
+  .productCard img {
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px 8px 0 0;
+  }
+  
+  .btn-warning {
+    background-color: #ff9800;
+    border: none;
+    color: white;
+  }
+  
+  .btn-danger {
+    background-color: #f44336;
+    border: none;
+    color: white;
+  }
+  
+  .btn-success {
+    background-color: #4caf50;
+    border: none;
+    color: white;
+  }
+  
+  .list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+  }
+  
+  input, select, textarea {
+    border-radius: 5px; 
+    /* border: 1px solid #007bff; */
+  }
+  .card_body{
+    width: 100%;
+  }
+
+  .colorDropdown {
+    position: relative;
+  }
+  
+  .colorButton {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    cursor: pointer;
+    text-align: left;
+  }
+  
+  .colorOptions {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    z-index: 1;
+  }
+  
+  .colorOption {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .colorOption:hover {
+    background-color: #f0f0f0;
+  }
+  .ProductCard{
+   background:white;
+    gap:20px;
+    width: 30%;
+    padding-bottom: 12px;
+}
+.ProductList{
+  gap:25px;
+  justify-content: space-between;
+  
+}
+.ProductCard img{
+  margin-top: 12px;
+}
+.CatalogTab{
+  background:rgb(238,239,243);
+}
+.CatalogTab{
+  padding:40px;
+}
+.nav-link img{
+  height: 20px !important;
+  width: 20px;
+}
+.nav-item {
+  color:rgb(255, 0, 0);
+}
+.butCL{
+  margin-bottom: 40px;
+  margin-left: -10px;
+}
